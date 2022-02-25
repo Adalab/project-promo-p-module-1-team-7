@@ -1,12 +1,23 @@
+:root {
+    --white: #fff;
+    --aqua: #14d9c4;
+    --blue-green: #099d8d;
+    --dark-grey: #54585a;
+    --cool-grey: #b8b8b9;
+    --black: #000000;
+    --black-8: rgba(0, 0, 0, 0.08);
+}
+
+/*PARTE SARA HEADER*/
 .main_header {
     font-family: Rubik;
-    color: #fff;
+    color: var(--white);
 }
 
 .header_title {
     text-align: center;
     padding: 15px;
-    background-color: #099d8d;
+    background-color: var(--blue-green);
 }
 
 h1 {
@@ -20,4 +31,161 @@ h1 {
     font-style: normal;
     line-height: 1.88;
     letter-spacing: normal;
+}
+
+
+
+/* Parte de Elena */
+
+.lema {
+    width: 290px;
+    height: 80px;
+    margin: 15px 0;
+    padding: 14px 15px 16px;
+    background-color: var(--white);
+}
+
+.team {
+    width: 320px;
+    height: 504px;
+    padding: 30px 15px;
+    background-color: var(--white);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.team_title {
+    width: 89px;
+    height: 45px;
+    margin: 0 99.5px 15px 101.5px;
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--aqua);
+}
+
+.team_text {
+    width: 290px;
+    height: 384px;
+    margin: 15px 0 0;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--dark-grey);
+}
+
+.strengths {
+    width: 320px;
+    height: 579px;
+    margin: 0 0;
+    padding: 30px 15px 45px;
+    opacity: 0.2;
+    background-color: var(--cool-grey);
+}
+
+.fourth_title {
+    width: 290px;
+    height: 45px;
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.05;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--blue-green);
+}
+
+.weaknesses {
+    margin: 30px 0 0;
+}
+
+.strengths_text {
+    width: 290px;
+    height: 192px;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #54585a;
+}
+
+.strengths_text-strengths {
+    margin: 45px 0 30px;
+}
+
+.strengths_text-weaknesses {
+    margin: 75px 0 0;
+}
+
+/* Parte de Ana */
+.second_section {
+    width: 320px;
+    padding: 30px 15px 45px;
+    background-color: #fff;
+}
+
+.second_title {
+    width: 193px;
+    height: 45px;
+    margin: 0 47.5px 30px 49.5px;
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--blue-green);
+}
+
+.third_title {
+    width: 177px;
+    height: 45px;
+    margin: 15px 55.5px 0 57.5px;
+    font-family: OpenSans;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--black);
+}
+
+.image {
+    width: 180px;
+    height: 180px;
+    margin: 0 55px 15px;
+    border-radius: 4px;
+    border: solid 5px var(--black-8);
+}
+
+.rrss {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rrss img {
+    width: 30px;
 }
