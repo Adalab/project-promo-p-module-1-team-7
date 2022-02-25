@@ -12,12 +12,15 @@
 .main_header {
     font-family: Rubik;
     color: var(--white);
+    background-image: url('../images/patitos.jpg');
+    height: 421px;
 }
 
 .header_title {
     text-align: center;
     padding: 15px;
     background-color: var(--blue-green);
+    opacity: 0.95;
 }
 
 h1 {
@@ -33,7 +36,27 @@ h1 {
     letter-spacing: normal;
 }
 
+.header_nav {
+    background-color: var(--aqua);
+    position: relative;
+    opacity: 0.95;
 
+}
+
+.header_nav nav ul {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 15px 17px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.header_nav a {
+    text-decoration: none;
+    color: var(--white);
+}
 
 /* Parte de Elena */
 
