@@ -160,15 +160,16 @@ h1 {
 
 /* Parte de Ana */
 .second_section {
-    width: 320px;
+    width: 100%;
     padding: 30px 15px 45px;
     background-color: #fff;
+    min-width: 320px;
+    box-sizing: border-box;
 }
 
 .second_title {
-    width: 193px;
     height: 45px;
-    margin: 0 47.5px 30px 49.5px;
+    margin: 30px 62.5px;
     font-family: Rubik;
     font-size: 24px;
     font-weight: 500;
@@ -180,8 +181,11 @@ h1 {
     color: var(--blue-green);
 }
 
+.description {
+    text-align: center;
+}
+
 .third_title {
-    width: 177px;
     height: 45px;
     margin: 15px 55.5px 0 57.5px;
     font-family: OpenSans;
@@ -195,10 +199,16 @@ h1 {
     color: var(--black);
 }
 
+.image_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .image {
     width: 180px;
     height: 180px;
-    margin: 0 55px 15px;
+    margin: 45px 70px 15px;
     border-radius: 4px;
     border: solid 5px var(--black-8);
 }
@@ -207,6 +217,9 @@ h1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 124px;
+    height: 30px;
+    margin: 15px auto;
 }
 
 .rrss img {
