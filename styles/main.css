@@ -6,6 +6,7 @@
   --cool-grey: #b8b8b9;
   --black: #000000;
   --black-8: rgba(0, 0, 0, 0.08);
+  
 }
 
 /*PARTE SARA HEADER*/
@@ -228,43 +229,59 @@ h1 {
 .container_footer {
   width: 100%;
   padding: 20px 74px 45px;
-}
-
-.copyright {
-  width: 172px;
-  height: 20px;
-  margin: 0 0 20px;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 14px;
-  color: var(--cool-grey);
-  text-align: center;
-}
-.bottom_links {
-  width: 114px;
-  height: 60px;
-  /*margin: 20px 29px 30px;*/
-  list-style: none;
+  box-sizing: border-box;
+  background-color: var(--white #fff);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.copyright {
+  width: 100%;
+  height: 20px;
+  margin: 0 0 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: var(--cool-grey);
+  text-align: center;
+}
+.bottom_links {
+  width: 100%;
+  height: 60px;
+  margin: 20px 29px 30px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
 .link_team_bottom,
-.link_who_bottom,
+.link_we_bottom,
 .link_contact_bottom {
   color: var(--dark-grey);
   opacity: 0.75;
   font-size: 14px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   line-height: 1.43;
+  text-decoration: none;
+  align-items: center;
+  position: relative;
+  right: 20px;
 }
 .container_logo {
   width: 115.9px;
   height: 45px;
   margin: 30px 28.1px 0 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .logo_adalab_bottom {
   width: 100%;
+ 
 }

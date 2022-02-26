@@ -7,6 +7,12 @@
     <title>Duckies</title>
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="main_header">
@@ -27,7 +33,7 @@
       <!-- Parte de Elena -->
       <h2 class="lema">Go Duckies!!</h2>
       <article class="team">
-        <h3 class="team_title">EQUIPO</h3>
+        <h3 id="team_title" class="team_title">EQUIPO</h3>
         <span class="team_text">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -64,7 +70,7 @@
 
       <!--Parte de Ana-->
       <section class="second_section">
-        <h2 class="second_title">QUIENES SOMOS</h2>
+        <h2 id="we_title" class="second_title">QUIENES SOMOS</h2>
         <article class="we">
           <div class="image_container">
             <img
@@ -205,9 +211,13 @@
     <footer class="container_footer">
       <h6 class="copyright">Duckies © 2022</h6>
       <ul class="bottom_links">
-        <li><a class="link_team_bottom" href="./index.html#">EQUIPO</a></li>
         <li>
-          <a class="link_who_bottom" href="./index.html#">QUIÉNES SOMOS</a>
+          <a class="link_team_bottom" href="./index.html#team_title">EQUIPO</a>
+        </li>
+        <li>
+          <a class="link_we_bottom" href="./index.html#we_title"
+            >QUIÉNES SOMOS</a
+          >
         </li>
         <li>
           <a class="link_contact_bottom" href="./contact.html">CONTACTO</a>
