@@ -58,6 +58,28 @@ h1 {
     color: var(--white);
 }
 
+.slogan {
+    padding: 14px 15px 16px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 290px;
+    left: 15px;
+    right: 15px;
+
+
+    height: 50px;
+    background-color: var(--white);
+    color: var(--black);
+    font-family: OpenSans;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal
+}
+
 /* Parte de Elena */
 
 .lema {
