@@ -149,3 +149,49 @@
 .rrss img {
   width: 30px;
 }
+
+/* Parte de Joanna */
+
+.container_footer {
+  width: 100%;
+  padding: 20px 74px 45px;
+}
+
+.copyright {
+  width: 172px;
+  height: 20px;
+  margin: 0 0 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  color: var(--cool-grey);
+  text-align: center;
+}
+.bottom_links {
+  width: 114px;
+  height: 60px;
+  /*margin: 20px 29px 30px;*/
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link_team_bottom,
+.link_who_bottom,
+.link_contact_bottom {
+  color: var(--dark-grey);
+  opacity: 0.75;
+  font-size: 14px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  line-height: 1.43;
+}
+.container_logo {
+  width: 115.9px;
+  height: 45px;
+  margin: 30px 28.1px 0 28px;
+}
+.logo_adalab_bottom {
+  width: 100%;
+}
