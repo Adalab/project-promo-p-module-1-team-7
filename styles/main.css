@@ -9,6 +9,7 @@
   --font-text: "Open Sans", sans-serif;
   --font-title: "Rubik", sans-serif;
 }
+
 .wrapper {
   margin: 0 15px;
 }
@@ -23,12 +24,12 @@
 
 .header_title {
   text-align: center;
-  padding: 15px;
+  padding: 15px 0;
   background-color: var(--blue-green);
   opacity: 0.95;
 }
 
-h1 {
+.title {
   margin: 0;
 }
 
@@ -63,7 +64,7 @@ h1 {
 }
 
 .slogan {
-  padding: 14px 15px 16px;
+  padding: 14px 0px 16px;
   display: flex;
   justify-content: center;
   position: absolute;
@@ -237,9 +238,11 @@ h1 {
   height: 30px;
   margin: 15px auto 45px auto;
 }
+
 .fa-brands fa-twitter {
   width: 20px;
 }
+
 .rrss i {
   width: 30px;
   color: var(--blue-green);
@@ -306,10 +309,12 @@ h1 {
 .logo_adalab_bottom {
   width: 100%;
 }
+
 @media all and (min-width: 740px) {
   .description {
     width: 40%;
   }
+
   .image {
     width: 560px;
     height: 560px;
