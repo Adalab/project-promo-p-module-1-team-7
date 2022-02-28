@@ -280,6 +280,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0;
 }
 
 .link_team_bottom,
