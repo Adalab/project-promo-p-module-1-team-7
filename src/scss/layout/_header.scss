@@ -1,5 +1,66 @@
-.page__header {
+.main_header {
+  font-family: $font-title;
+  color: $white;
+  background-image: url("../images/patitos.jpg");
+  height: 421px;
+}
+
+.header_title {
+  text-align: center;
+  padding: 15px 0;
+  background-color: $blue-green;
+  opacity: 0.95;
+}
+
+.title {
+  margin: 0;
+}
+
+.header_title h1 {
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+}
+
+.header_nav {
+  background-color: $aqua;
+  position: relative;
+  opacity: 0.95;
+}
+
+.header_nav nav ul {
+  margin: 0;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 15px 17px;
+  font-size: 15px;
+  color: $white;
+}
+
+.header_nav a {
+  text-decoration: none;
+  color: $white;
+}
+
+.slogan {
+  padding: 14px 0px 16px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 280px;
+  left: 15px;
+  right: 15px;
+  background-color: $white;
+  color: $black;
+  font-family: $font-text;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+  letter-spacing: normal;
 }
