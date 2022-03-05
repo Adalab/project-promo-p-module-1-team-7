@@ -1,23 +1,36 @@
 .section1 {
   &__article1 {
+    /*mobile*/
     margin: 30px 0;
     background-color: $white;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+
+    /*tablet*/
   }
 }
 .article1 {
   &__title {
-    /* margin: 0;*/
+    /*mobile*/
+    margin: 0;
     font-family: $font-title;
     font-size: 24px;
     font-weight: 500;
     line-height: 1.88;
     text-align: center;
     color: $aqua;
+
+    /*tablet
+    @media all and (min-width: 768px) {
+      width: 88.7px;
+      height: 45px;
+      margin: 0 294.3px 15px 295px;
+    }*/
   }
+
   &__text {
+    /*mobile*/
     margin: 0;
     font-family: $font-text;
     font-size: 16px;
@@ -27,10 +40,18 @@
     color: $dark-grey;
     display: flex;
     justify-content: center;
+
+    /*tablet
+     @media all and (min-width: 768px) {
+      width: 678px;
+      height: 168px;
+      margin: 15px 0 0;
+      text-align: center;*/
   }
 }
 
 .square {
+  /*mobile*/
   width: 30px;
   height: 30px;
   background-color: $white;
@@ -40,6 +61,7 @@
 }
 
 .section1__articles2-3 {
+  /*mobile*/
   padding: 30px 0 15px 0;
   background-color: rgba(184, 184, 185, 0.2);
   display: flex;
@@ -48,6 +70,7 @@
 }
 .article2-3 {
   &__title {
+    /*mobile*/
     margin: 0;
     font-family: $font-title;
     font-size: 22px;
@@ -58,6 +81,7 @@
   }
 
   &__text {
+    /*mobile*/
     margin: 0 0 30px 0;
     font-family: $font-text;
     font-size: 16px;
