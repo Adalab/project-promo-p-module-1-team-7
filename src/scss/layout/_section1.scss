@@ -13,7 +13,7 @@
 .article1 {
   &__title {
     /*mobile*/
-    margin: 0;
+    padding: 30px 15px 0;
     font-family: $font-title;
     font-size: 24px;
     font-weight: 500;
@@ -22,7 +22,7 @@
     color: $aqua;
 
     /*tablet
-    @media all and (min-width: 768px) {
+    @media (min-width: 768px) {
       width: 88.7px;
       height: 45px;
       margin: 0 294.3px 15px 295px;
@@ -31,7 +31,7 @@
 
   &__text {
     /*mobile*/
-    margin: 0;
+    padding: 15px;
     font-family: $font-text;
     font-size: 16px;
     font-weight: normal;
@@ -72,7 +72,7 @@
 .article2-3 {
   &__title {
     /*mobile*/
-    margin: 0;
+    /*margin: 0;*/
     font-family: $font-title;
     font-size: 22px;
     font-weight: 500;
@@ -83,7 +83,8 @@
 
   &__text {
     /*mobile*/
-    margin: 0 0 30px 0;
+
+    padding: 0 15px 45px;
     font-family: $font-text;
     font-size: 16px;
     font-weight: normal;
