@@ -1,83 +1,69 @@
-.team {
-  margin: 30px 0;
-  background-color: $white;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+.section1 {
+  &__article1 {
+    margin: 30px 0;
+    background-color: $white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
 }
-
-.team__title {
-  margin: 0;
-  font-family: $font-title;
-  font-size: 24px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.88;
-  letter-spacing: normal;
-  text-align: center;
-  color: $aqua;
-}
-
-.team__text {
-  margin: 0;
-  font-family: $font-text;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: center;
-  color: $dark-grey;
-
-  display: flex;
-  justify-content: center;
+.article1 {
+  &__title {
+    /* margin: 0;*/
+    font-family: $font-title;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.88;
+    text-align: center;
+    color: $aqua;
+  }
+  &__text {
+    margin: 0;
+    font-family: $font-text;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: center;
+    color: $dark-grey;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .square {
   width: 30px;
   height: 30px;
-
   background-color: $white;
-
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
 }
 
-.strengths {
+.section1__articles2-3 {
   padding: 30px 0 15px 0;
   background-color: rgba(184, 184, 185, 0.2);
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+.article2-3 {
+  &__title {
+    margin: 0;
+    font-family: $font-title;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 2.05;
+    text-align: center;
+    color: $blue-green;
+  }
 
-.fourth_title {
-  margin: 0;
-  font-family: $font-title;
-  font-size: 22px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.05;
-  letter-spacing: normal;
-  text-align: center;
-  color: $blue-green;
-}
-
-.strengths_text {
-  margin: 0 0 30px 0;
-  font-family: $font-text;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: center;
-  color: $dark-grey;
+  &__text {
+    margin: 0 0 30px 0;
+    font-family: $font-text;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: center;
+    color: $dark-grey;
+  }
 }
