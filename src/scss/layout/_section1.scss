@@ -7,11 +7,17 @@
     flex-direction: column;
     justify-content: flex-end;
 
-    /*tablet*/
+    /*tablet
+    @media (min-width: 768px) {
+      */
+
+    /*desktop
+    @media (min-width: 1200px) {
+      */
 
     &--title {
       /*mobile*/
-      padding: 30px 15px 0;
+      margin: 30px 15px 0;
       font-family: $font-title;
       font-size: 24px;
       font-weight: 500;
@@ -19,13 +25,14 @@
       text-align: center;
       color: $aqua;
     }
-    /*tablet
+    /*tablet*/
     @media (min-width: 768px) {
-      width: 88.7px;
-      height: 45px;
-      margin: 0 294.3px 15px 295px;
-    }*/
-
+      margin-top: 45px;
+    }
+    /*desktop*/
+    @media (min-width: 1200px) {
+      margin-top: 45px;
+    }
     &--text {
       /*mobile*/
       padding: 15px;
@@ -38,12 +45,14 @@
       display: flex;
       justify-content: center;
 
-      /*tablet
-     @media all and (min-width: 768px) {
-      width: 678px;
-      height: 168px;
-      margin: 15px 0 0;
-      text-align: center;*/
+      /*tablet*/
+      @media (min-width: 768px) {
+        margin: 0 45px 30px;
+      }
+      /*desktop*/
+      @media (min-width: 1200px) {
+        margin: 0 300px 60px;
+      }
     }
   }
 }
