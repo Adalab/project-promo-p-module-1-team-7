@@ -8,45 +8,43 @@
     justify-content: flex-end;
 
     /*tablet*/
-  }
-}
-.article1 {
-  &__title {
-    /*mobile*/
-    padding: 30px 15px 0;
-    font-family: $font-title;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 1.88;
-    text-align: center;
-    color: $aqua;
 
+    &--title {
+      /*mobile*/
+      padding: 30px 15px 0;
+      font-family: $font-title;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 1.88;
+      text-align: center;
+      color: $aqua;
+    }
     /*tablet
     @media (min-width: 768px) {
       width: 88.7px;
       height: 45px;
       margin: 0 294.3px 15px 295px;
     }*/
-  }
 
-  &__text {
-    /*mobile*/
-    padding: 15px;
-    font-family: $font-text;
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 1.5;
-    text-align: center;
-    color: $dark-grey;
-    display: flex;
-    justify-content: center;
+    &--text {
+      /*mobile*/
+      padding: 15px;
+      font-family: $font-text;
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 1.5;
+      text-align: center;
+      color: $dark-grey;
+      display: flex;
+      justify-content: center;
 
-    /*tablet
+      /*tablet
      @media all and (min-width: 768px) {
       width: 678px;
       height: 168px;
       margin: 15px 0 0;
       text-align: center;*/
+    }
   }
 }
 
