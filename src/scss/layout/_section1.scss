@@ -80,10 +80,12 @@
     /*tablet*/
     @media (min-width: 768px) {
       flex-direction: row;
+      text-align: center;
     }
     /*desktop*/
     @media (min-width: 1200px) {
       flex-direction: row;
+      text-align: center;
     }
 
     &--title {
@@ -96,12 +98,14 @@
       text-align: center;
       color: $blue-green;
 
-      /*tablet
+      /*tablet*/
       @media (min-width: 768px) {
-      }*/
-      /*desktop
+        margin-top: 15px;
+      }
+      /*desktop*/
       @media (min-width: 1200px) {
-      }*/
+        margin-top: 15px;
+      }
     }
 
     &--text {
@@ -115,16 +119,14 @@
       text-align: center;
       color: $dark-grey;
 
-      /*tablet
+      /*tablet*/
       @media (min-width: 768px) {
-        max-width: 324px;
-        padding: 15px 15px 60px 45px;
-      }*/
-      /*desktop
+        padding: 15px auto 60px auto;
+      }
+      /*desktop*/
       @media (min-width: 1200px) {
-        max-width: 439px;
-        padding: 15px 22.5px 60px 138px;
-      }*/
+        padding: 15px auto 60px auto;
+      }
     }
   }
 }
