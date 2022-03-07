@@ -5,14 +5,6 @@
   flex-direction: column;
   justify-content: flex-end;
 
-  /*tablet
-    @media (min-width: 768px) {
-      */
-
-  /*desktop
-    @media (min-width: 1200px) {
-      */
-
   &__title {
     /*mobile*/
     margin-top: 30px;
@@ -28,10 +20,10 @@
     @media (min-width: 768px) {
       margin-top: 45px;
     }
-    /*desktop*/
+    /*desktop* = que en tablet/
     @media (min-width: 1200px) {
       margin-top: 45px;
-    }
+    }*/
   }
   &__content {
     /*mobile*/
@@ -76,13 +68,17 @@
 
   /*tablet*/
   @media (min-width: 768px) {
+    padding: 0 45px;
     flex-direction: row;
+    justify-content: space-between;
     text-align: center;
   }
   /*desktop*/
   @media (min-width: 1200px) {
-    flex-direction: row;
-    text-align: center;
+    padding: 0 138px;
+    /*flex-direction: row;
+    justify-content: space-between;
+    text-align: center; ==se repite de tablet*/
   }
 }
 .article2__strengths {
@@ -98,15 +94,16 @@
 
     /*tablet*/
     @media (min-width: 768px) {
+      margin: 45px 12px 15px 0;
     }
     /*desktop*/
     @media (min-width: 1200px) {
+      margin: 45px 38.2px 15px 0;
     }
   }
 
   &--content {
     /*mobile*/
-
     margin-bottom: 30px;
     font-family: $font-text;
     font-size: 16px;
@@ -117,11 +114,11 @@
 
     /*tablet*/
     @media (min-width: 768px) {
-      padding: 15px auto 60px auto;
+      margin: 0 30px 60px 0;
     }
     /*desktop*/
     @media (min-width: 1200px) {
-      padding: 15px auto 60px auto;
+      margin: 0 45px 60px 0;
     }
   }
 }
@@ -137,13 +134,13 @@
 
     /*tablet*/
     @media (min-width: 768px) {
-      margin-top: 15px;
-      position: 50%;
+      margin: 45px 0 15px 0;
+      text-align: center;
     }
-    /*desktop*/
+    /*desktop* = que en table/
     @media (min-width: 1200px) {
-      margin-top: 15px;
-    }
+      margin: 45px 0 15px 0;
+    }*/
   }
 
   &--content {
@@ -158,11 +155,10 @@
 
     /*tablet*/
     @media (min-width: 768px) {
-      padding: 15px auto 60px auto;
+      margin-bottom: 60px;
     }
     /*desktop*/
     @media (min-width: 1200px) {
-      padding: 15px auto 60px auto;
     }
   }
 }
