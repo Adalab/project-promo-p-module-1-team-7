@@ -1,60 +1,67 @@
-.container_footer {
-  width: 100%;
+.footer {
   padding: 20px 74px 45px;
-  box-sizing: border-box;
   background-color: $white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+  @media all and (min-width: 768px) {
+    align-items: flex-start;
+  }
+  &__title {
+    height: 20px;
+    margin: 0 0 20px;
+    font-family: $font-text;
+    font-size: 14px;
+    color: $cool-grey;
+    text-align: center;
+    @media all and (min-width: 768px) {
+      width: fit-content;
+    }
+  }
 
-.copyright {
-  width: 100%;
-  height: 20px;
-  margin: 0 0 20px;
-  font-family: $font-text;
-  font-size: 14px;
-  color: $cool-grey;
-  text-align: center;
-}
+  &__links {
+    width: 100%;
+    height: 60px;
+    margin: 20px 0 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    @media all and (min-width: 768px) {
+      width: fit-content;
+      text-align: right;
+      position: absolute;
+      right: 0;
+      display: initial;
+      margin-right: 74px;
+    }
+  }
 
-.bottom_links {
-  width: 100%;
-  height: 60px;
-  margin: 20px 0 30px;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-}
+  &__link {
+    color: $dark-grey;
+    opacity: 0.75;
+    font-size: 14px;
+    font-family: $font-text;
+    font-weight: 600;
+    line-height: 1.43;
+    text-decoration: none;
+    align-items: center;
+    position: relative;
+  }
 
-.link_team_bottom,
-.link_we_bottom,
-.link_contact_bottom {
-  color: $dark-grey;
-  opacity: 0.75;
-  font-size: 14px;
-  font-family: $font-text;
-  font-weight: 600;
-  line-height: 1.43;
-  text-decoration: none;
-  align-items: center;
-  position: relative;
-}
-
-.container_logo {
-  width: 115.9px;
-  height: 45px;
-  margin: 30px 28.1px 0 28px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.logo_adalab_bottom {
-  width: 100%;
+  &__image {
+    width: 115.9px;
+    height: 45px;
+    margin: 30px 28.1px 0 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media all and (min-width: 768px) {
+      margin: 0px;
+    }
+  }
 }
