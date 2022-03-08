@@ -1,43 +1,66 @@
-<article>
-  <h1>Contacto</h1>
-  <p>
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum quod
-    necessitatibus reprehenderit error architecto deserunt, veritatis sequi
-    deleniti perspiciatis beatae! Tempora nobis debitis in accusamus mollitia
-    quisquam nesciunt neque. Iste!
-  </p>
-  <p>Todos lso campos marcados con <span>*</span> son obligatorios.</p>
-</article>
+<div class="wrapper_contact">
+  <article class="contact">
+    <h1 class="contact__title">Contacto</h1>
+    <p class="contact__text">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum quod
+      necessitatibus reprehenderit error architecto deserunt, veritatis sequi
+      deleniti perspiciatis beatae! Tempora nobis debitis in accusamus mollitia
+      quisquam nesciunt neque. Iste!
+    </p>
+    <p class="contact__condition">
+      Todos los campos marcados con <span class="asterisk">*</span> son
+      obligatorios.
+    </p>
+  </article>
 
-<form action="https://adalab-server-form.herookuapp.com/" method="post">
-  <div>
-    <label for="name">Nombre Completo<span>*</span></label>
-    <input id="name" type="text" name="name" placeholder="Nombre..." />
-  </div>
+  <form
+    class="form"
+    action="https://adalab-server-form.herookuapp.com/"
+    method="post"
+  >
+    <div class="form__item">
+      <label for="name">Nombre Completo<span class="asterisk">*</span></label>
+      <input
+        class="form__item__input"
+        id="name"
+        type="text"
+        name="name"
+        placeholder="Nombre..."
+      />
+    </div>
 
-  <div>
-    <label for="mail">E-mail<span>*</span></label>
-    <input
-      id="mail"
-      type="email"
-      name="mail"
-      value="nombre.apellidos@mail.com"
-    />
-  </div>
+    <div class="form__item">
+      <label for="mail">E-mail<span class="asterisk">*</span></label>
+      <input
+        class="form__item__input"
+        id="mail"
+        type="email"
+        name="mail"
+        value="nombre.apellidos@mail.com"
+      />
+    </div>
 
-  <div>
-    <label for="tel">Teléfono</label>
-    <input id="tel" type="tel" name="tel" placeholder="Ej:1223456789" />
-  </div>
+    <div class="form__item">
+      <label for="tel">Teléfono</label>
+      <input
+        class="form__item__input"
+        id="tel"
+        type="tel"
+        name="tel"
+        placeholder="Ej:1223456789"
+      />
+    </div>
 
-  <div>
-    <label for="mesage">Mensaje<span>*</span></label>
-    <textarea
-      id="mesage"
-      name="mesage"
-      placeholder="¿Qué necesitas?"
-    ></textarea>
-  </div>
+    <div class="form__item">
+      <label for="mesage">Mensaje<span class="asterisk">*</span></label>
+      <textarea
+        class="form__item__mesage"
+        id="mesage"
+        name="mesage"
+        placeholder="¿Qué necesitas?"
+      ></textarea>
+    </div>
 
-  <input type="submit" value="Enviar" />
-</form>
+    <input class="form__submit" type="submit" value="Enviar" />
+  </form>
+</div>
