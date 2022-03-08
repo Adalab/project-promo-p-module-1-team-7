@@ -1,3 +1,10 @@
 .wrapper {
   margin: 0 15px;
+
+  @media all and (min-width: 780px) {
+    margin: 0 45px;
+  }
+  @media all and (min-width: 1200px) {
+    max-width: 924px;
+  }
 }
