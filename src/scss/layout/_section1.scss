@@ -70,8 +70,8 @@
   @media (min-width: 768px) {
     padding: 0 45px;
     flex-direction: row;
-    justify-content: space-between;
-    /*text-align: center;*/
+    text-align: center;
+    gap: 45px;
   }
   /*desktop*/
   @media (min-width: 1200px) {
@@ -83,7 +83,7 @@
 }
 .article2__strengths {
   @media (min-width: 768px) {
-    justify-content: center;
+    flex-basis: 50%;
   }
   &--title {
     /*mobile*/
@@ -117,17 +117,18 @@
 
     /*tablet*/
     @media (min-width: 768px) {
-      margin: 0 30px 60px 0;
+      /* margin: 0 30px 60px 0;*/
+      margin-bottom: 60px;
     }
     /*desktop*/
     @media (min-width: 1200px) {
-      margin: 0 45px 60px 0;
+      /* margin: 0 45px 60px 0;*/
     }
   }
 }
 .article3__weaknesses {
   @media (min-width: 768px) {
-    justify-content: center;
+    flex-basis: 50%;
   }
   &--title {
     /*mobile*/
@@ -141,8 +142,6 @@
     /*tablet*/
     @media (min-width: 768px) {
       margin: 45px 0 15px 0;
-
-      /*text-align: center;*/
     }
     /*desktop* = que en table/
     @media (min-width: 1200px) {
