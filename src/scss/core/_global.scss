@@ -12,21 +12,14 @@
 .wrapper_contact {
   margin: 0 15px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  @media all and (min-width: 780px) {
-    max-width: 442px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  @media all and (min-width: 1200px) {
-    max-width: 601px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+  &__content {
+    @media all and (min-width: 780px) {
+      max-width: 442px;
+    }
+    @media all and (min-width: 1200px) {
+      max-width: 601px;
+    }
   }
 }
