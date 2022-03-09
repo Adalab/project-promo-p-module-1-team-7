@@ -1,83 +1,154 @@
-.team {
-  margin: 30px 0;
+.article1-team {
+  /*mobile*/
   background-color: $white;
-
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-}
+  align-items: center;
 
-.team__title {
-  margin: 0;
-  font-family: $font-title;
-  font-size: 24px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.88;
-  letter-spacing: normal;
-  text-align: center;
-  color: $aqua;
-}
+  &__title {
+    /*mobile*/
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: $font-title;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.88;
+    text-align: center;
+    color: $aqua;
 
-.team__text {
-  margin: 0;
-  font-family: $font-text;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: center;
-  color: $dark-grey;
+    /*tablet*/
+    @media (min-width: 768px) {
+      margin-top: 45px;
+    }
+  }
 
-  display: flex;
-  justify-content: center;
+  &__content {
+    /*mobile*/
+    margin-bottom: 30px;
+    font-family: $font-text;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: $dark-grey;
+    text-align: center;
+
+    /*tablet*/
+    @media (min-width: 768px) {
+      margin-bottom: 60px;
+    }
+    /*desktop*/
+    @media (min-width: 1200px) {
+    }
+  }
 }
 
 .square {
+  /*mobile*/
   width: 30px;
   height: 30px;
-
   background-color: $white;
-
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
 }
 
-.strengths {
-  padding: 30px 0 15px 0;
+.article2-3 {
+  /*mobile*/
+  padding: 0 15px;
   background-color: rgba(184, 184, 185, 0.2);
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
 
-.fourth_title {
-  margin: 0;
-  font-family: $font-title;
-  font-size: 22px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.05;
-  letter-spacing: normal;
-  text-align: center;
-  color: $blue-green;
+  /*tablet*/
+  @media (min-width: 768px) {
+    padding: 0 45px;
+    flex-direction: row;
+    text-align: center;
+    gap: 30px;
+  }
+  /*desktop*/
+  @media (min-width: 1200px) {
+    padding: 0 138px;
+    gap: 45px;
+  }
 }
+.article2__strengths {
+  @media (min-width: 768px) {
+    flex-basis: 50%;
+  }
+  &--title {
+    /*mobile*/
+    margin-top: 30px;
+    font-family: $font-title;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 2.05;
+    text-align: center;
+    color: $blue-green;
 
-.strengths_text {
-  margin: 0 0 30px 0;
-  font-family: $font-text;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: center;
-  color: $dark-grey;
+    /*tablet*/
+    @media (min-width: 768px) {
+      margin-top: 45px;
+      margin-bottom: 15px;
+    }
+    /*desktop*/
+  }
+
+  &--content {
+    /*mobile*/
+    margin-bottom: 30px;
+    font-family: $font-text;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: center;
+    color: $dark-grey;
+
+    /*tablet*/
+    @media (min-width: 768px) {
+      margin-bottom: 60px;
+    }
+    /*desktop*/
+  }
+}
+.article3__weaknesses {
+  @media (min-width: 768px) {
+    flex-basis: 50%;
+  }
+  &--title {
+    /*mobile*/
+
+    font-family: $font-title;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 2.05;
+    text-align: center;
+    color: $blue-green;
+
+    /*tablet*/
+    @media (min-width: 768px) {
+      margin-top: 45px;
+      margin-bottom: 15px;
+    }
+    /*desktop*/
+  }
+
+  &--content {
+    /*mobile*/
+    margin-bottom: 45px;
+    font-family: $font-text;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: center;
+    color: $dark-grey;
+
+    /*tablet*/
+    @media (min-width: 768px) {
+      margin-bottom: 60px;
+    }
+    /*desktop*/
+  }
 }
