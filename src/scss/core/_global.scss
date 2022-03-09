@@ -11,11 +11,15 @@
 
 .wrapper_contact {
   margin: 0 15px;
+  display: flex;
+  justify-content: center;
 
-  @media all and (min-width: 780px) {
-    max-width: 442 px;
-  }
-  @media all and (min-width: 1200px) {
-    max-width: 601px;
+  &__content {
+    @media all and (min-width: 780px) {
+      max-width: 442px;
+    }
+    @media all and (min-width: 1200px) {
+      max-width: 601px;
+    }
   }
 }
