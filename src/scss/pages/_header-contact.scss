@@ -1,0 +1,84 @@
+.headerContac {
+  font-family: $font-title;
+  color: $white;
+  height: 300px;
+
+  position: relative;
+
+  @media all and (min-width: 1200px) {
+    height: 400px;
+  }
+
+  &__background {
+    height: 300px;
+    min-width: 100%;
+    object-fit: cover;
+
+    position: absolute;
+    top: 0;
+
+    @media all and (min-width: 768px) {
+      min-width: 100%;
+      object-fit: cover;
+    }
+
+    @media all and (min-width: 1200px) {
+      height: 400px;
+    }
+  }
+
+  &__color {
+    background-color: $blue-green;
+    opacity: 0.95;
+  }
+
+  .center-column {
+    max-width: 924px;
+    margin: 0 auto;
+
+    @media all and (min-width: 768px) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__title {
+    height: 60px;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.88;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__list {
+    background-color: $aqua;
+
+    font-size: 15px;
+
+    @media all and (min-width: 768px) {
+      background-color: inherit;
+    }
+
+    .wrapper {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    &__link {
+      height: 45px;
+
+      color: $white;
+      display: flex;
+      align-items: center;
+
+      @media all and (min-width: 768px) {
+        height: 60px;
+      }
+    }
+  }
+}
