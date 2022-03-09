@@ -33,12 +33,18 @@
   }
 
   .center-column {
-    max-width: 924px;
     margin: 0 auto;
 
     @media all and (min-width: 768px) {
       display: flex;
       justify-content: space-between;
+      max-width: 924px;
+    }
+
+    .wrapper {
+      @media all and (min-width: 1200px) {
+        margin: 0;
+      }
     }
   }
 
