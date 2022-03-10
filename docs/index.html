@@ -2,67 +2,264 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Duckies</title>
+
+    <script
+      src="https://kit.fontawesome.com/b79a8cfd22.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
-
   <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+    <header class="header">
+      <img
+        class="header__background"
+        src="./assets/images/patitos.jpg"
+        alt="Imagen del equipo Duckies"
+      />
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
+      <div class="header__color">
+        <div class="center-column">
+          <div class="wrapper">
+            <h1 class="header__title">DUCKIES</h1>
+          </div>
+          <nav>
+            <ul class="header__list">
+              <div class="wrapper">
+                <li>
+                  <a title="Ir a equipo" class="header__list__link" href="#equipo">
+                    EQUIPO
+                  </a>
+                </li>
+                <li>
+                  <a
+                    title="Ir a quienes somos"
+                    class="header__list__link"
+                    href="#quienes_somos"
+                  >
+                    QUIENES SOMOS
+                  </a>
+                </li>
+                <li>
+                  <a
+                    title="Ir a la página de contacto"
+                    class="header__list__link"
+                    href="./contact.html"
+                  >
+                    CONTACTO
+                  </a>
+                </li>
+              </div>
+            </ul>
+          </nav>
+        </div>
+      </div>
 
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
+      <div class="center-column">
+        <div class="wrapper">
+          <div class="header__slogan">GO DUCKIES!</div>
+        </div>
+      </div>
+    </header>
 
-          </li>
-        </ul>
-      </main>
+    <main>
+      <section class="section1">
+        <article class="article1-team">
+          <div class="wrapper">
+            <h3 class="article1-team__title">EQUIPO</h3>
+            <p class="article1-team__content">
+              Somos cuatro mujeres a las que nos apasiona el mundo de la programación.
+              Estamos en continuo aprendizaje, y nuestro lema Go Duckies! nos define
+              ante cualquier adversidad que pueda surgir, puesto que, a menudo,
+              encontramos solución en el proceso de explicar el problema entre
+              nosotras.
+            </p>
+          </div>
+        </article>
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
+        <div class="wrapper">
+          <div class="square"></div>
+        </div>
+        <article class="article2-3">
+          <div class="article2__strengths">
+            <h4 class="article2__strengths--title">Fortalezas</h4>
+            <p class="article2__strengths--content">
+              Compartimos objetivos, nos apoyamos entre nosotras y buscamos soluciones
+              ante cualquier situación que se nos presente, creando así un equipo no
+              sólo de trabajo, sino de motivación. Aunque cada una trabaje de forma
+              individual, el equipo siempre está dispuesto a ayudarse cuando sea
+              necesario. Así mismo, hacemos un aporte de innumerables ideas y
+              conocimientos, ¡Así es más fácil que surjan estrategias increíbles!
+            </p>
+          </div>
+          <div class="article3__weaknesses">
+            <h4 class="article3__weaknesses--title">Debilidades</h4>
+            <p class="article3__weaknesses--content">
+              Contamos con poca experiencia en el mundo de la programación, por lo que
+              aún nos faltan algunos conocimientos clave para hacer frente a los
+              cambios que puedan surgir. Lo que nos hace diferentes no son las
+              debilidades sino la manera como afrontemos esta realidad, todos tenemos
+              debilidades en cada uno de nosotros y esto no nos hace ni malas personas
+              ni malas programadoras, lo importante es afrontar esta realidad y
+              convertirla en oportunidades para mejorar ¡Lo estamos logrando!
+            </p>
+          </div>
+        </article>
+      </section>
 
-        </small>
-      </footer>
+      <!--Parte de Ana-->
+      <section class="second_section">
+        <div class="wrapper">
+          <h2 class="second_section__second_title">QUIENES SOMOS</h2>
+          <article class="article">
+            <div class="article__image_container">
+              <img class="article__image_container__image" src="./assets/images/IMG_5711.jpg" alt="foto de Joanna" />
+            </div>
 
-    </div>
-    <script src="./assets/js/main.js"></script>
+            <div>
+              <h3 class="article__third_title">Joanna</h3>
+              <p class="article__description">Llevo 10 años entre bastidores, produciendo ideas creativas en un soporte mas convencional, como es el papel, la tele o la radio. He tenido la suerte de trabajar con multitud de perfiles creativos, fotógrafos, directores, actores, directores de arte, etc. Lo que me permite tener una visión muy amplia de las necesidades artísticas de los proyectos. He colaborado y gestionado equipos de trabajo para hacer esas ideas realidad, convirtiéndome en una gran team player, si no hay equipo no hay resultado.
+            Me he enfrentado a proyectos mastodónticos y minúsculos, siempre con la misma pasión y con el mismo temor hacia lo nuevo. He trabajado en todo tipo de ambientes, lo que me ha permitido conocer los procesos y las metodologías, desde la empresa mas chiquita a la multinacional mas gigantesca.</p>
+              <nav class="article__rrss">
+                <a href="" target="_blank">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="http://linkedin.com/in/joanna-busmail-236bbba5/" target="_blank">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/JoannaBusmail" target="_blank">
+                  <i class="fa-brands fa-github-alt"></i>
+                </a>
+                <a href="mailto:joanna.busmail@gmail.com" target="_blank">
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+              </nav>
+            </div>
+          </article>
+
+          <article class="article">
+            <div class="article__image_container">
+              <img class="article__image_container__image" src="./assets/images/FotoSara (1).jpg" alt="Foto de Sara" />
+            </div>
+
+            <div>
+              <h3 class="article__third_title">Sara</h3>
+              <p class="article__description">Con grandes habilidades sociales orientadas a la divulgación científica técnica. Me considero una persona resolutiva, eficiente y con amplios conocimientos de todo tipo de procesos de investigación en el campo de la Psicología y la Educación. Esto hizo darme cuenta de mi gran vocación por la programación y el Desarrollo web, siempre con gran motivación y ganas de crecer profesionalmente.
+            A lo largo de mi trayectoria profesional he tenido la oportunidad de trabajar en distintos ambientes de trabajo y relacionarme con un público muy variado. De esta forma, me ha permitido desarrollar mucho mejor la empatía y la escucha activa hacia las personas con las que trabajo. Además, me considero una persona proactiva y pragmática, acostumbrada a trabajar en equipo y por objetivos.</p>
+              <nav class="article__rrss">
+                <a href="https://twitter.com/Sara_FRr" target="_blank">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/sara-fern%C3%A1ndez-ramos-35b59896/" target="_blank">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/sararunda" target="_blank">
+                  <i class="fa-brands fa-github-alt"></i>
+                </a>
+                <a href="mailto:sararunda@hotmail.com" target="_blank">
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+              </nav>
+            </div>
+          </article>
+
+          <article class="article">
+            <div class="article__image_container">
+              <img class="article__image_container__image" src="./assets/images/1646050203243.jpg" alt="Foto de Ana" />
+            </div>
+
+            <div>
+              <h3 class="article__third_title">Ana</h3>
+              <p class="article__description">Después de pasar los últimos diez años formándome y trabajando como enfermera, he decidido dar un giro profesional a mi vida y afrontar nuevos retos dentro del mundo tecnológico. Aunque mi experiencia profesional no ha estado ligada a la programación, he desarrollado ciertas habilidades que vienen bien para el trabajo en equipo, como las habilidades de comunicación, empatía, flexibilidad, atención al detalle, habilidad para resolver problemas (y evitarlos antes de que se produzcan), respuesta rápida ante incidencias repentinas y por supuesto, el respeto. Estoy ilusionada y motivada con esta nueva etapa.</p>
+              <nav class="article__rrss">
+                <a href="https://twitter.com/anamarcosestev1" target="_blank">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ana-marcos-estevez-7ab986232/" target="_blank">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/aimarest" target="_blank">
+                  <i class="fa-brands fa-github-alt"></i>
+                </a>
+                <a href="mailto:amarcosestevez@gmail.com" target="_blank">
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+              </nav>
+            </div>
+          </article>
+
+          <article class="article">
+            <div class="article__image_container">
+              <img class="article__image_container__image" src="./assets/images/Elena_Palomar_cuadrada.jpg" alt="Foto de Elena" />
+            </div>
+
+            <div>
+              <h3 class="article__third_title">Elena</h3>
+              <p class="article__description">Aunque siempre había destacado por mi creatividad y pensaba que ese iba a ser mi camino, casi por casualidad comencé a estudiar la carrera de Física. Por las circunstancias de la vida no pude dedicarme a la especialidad que había elegido, la meteorología, pero fue gracias a ella precisamente que me introduje en el mundo de la programación. Los programas pasaron de ser herramientas a los medios que convertían unos datos aburridos en increíbles respuestas visuales.
+            El no poder dedicarme a lo que había decidido no me hizo caer, sino buscar nuevas oportunidades. Fue entonces cuando recuperé los apuntes de un pequeño curso que había hecho en la carrera sobre páginas web y un nuevo mundo se abrió ante mí: ¿era posible unir la funcionalidad de la programación con la creatividad?</p>
+              <nav class="article__rrss">
+                <a href="" target="_blank">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="http://www.linkedin.com/in/elena-palomar" target="_blank">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/ElenaPalomar" target="_blank">
+                  <i class="fa-brands fa-github-alt"></i>
+                </a>
+                <a href="mailto:elenapalomarllorente@gmail.com" target="_blank">
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+              </nav>
+            </div>
+          </article>
+
+        </div>
+      </section>
+      <!-- Acaba la parte de Ana -->
+
+    </main>
+
+    <footer class="footer">
+      <h6 class="footer__title">Duckies © 2022</h6>
+      <ul class="footer__links">
+        <li>
+          <a title="Ir a equipo" class="footer__link" href="./index.html#equipo"
+            >EQUIPO</a
+          >
+        </li>
+        <li>
+          <a
+            title="Ir a quienes somos"
+            class="footer__link"
+            href="./index.html#quienes_somos"
+            >QUIÉNES SOMOS</a
+          >
+        </li>
+        <li>
+          <a
+            title="Ir a la página de contacto"
+            class="footer__link"
+            href="./contact.html"
+            >CONTACTO</a
+          >
+        </li>
+      </ul>
+
+      <img
+        class="footer__image"
+        src="./assets/images/logo-adalab.png"
+        alt="Logo Adalab"
+      />
+    </footer>
+
   </body>
 </html>
